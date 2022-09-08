@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'amitruck_interview.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'amitruck',
         'USER': 'root',
         'PASSWORD': 'root',
